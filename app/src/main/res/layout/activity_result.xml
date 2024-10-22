@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28323B"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/kvadrat"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="390dp"
+        android:layout_height="200.19dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/background_activity2" />
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/user_icon0"
+        android:layout_width="24dp"
+        android:layout_height="23dp"/>
+
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/user_icon"
+        android:layout_width="24dp"
+        android:layout_height="23dp"/>
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/user_icon_2"
+        android:layout_width="24dp"
+        android:layout_height="23dp"/>
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/user_icon_3"
+        android:layout_width="24dp"
+        android:layout_height="23dp"/>
+
+    <TextView
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="240dp"
+        android:text="accessebility"
+        android:gravity="center"
+        android:layout_width="72dp"
+        android:layout_height="15dp"/>
+
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/done"
+        android:layout_width="81dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="369dp"
+        android:textSize="13dp"
+        android:text="Price"
+        android:layout_width="72dp"
+        android:layout_height="20dp"/>
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="190dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="484dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="464dp"
+        android:textSize="13dp"
+        android:text="Accessibility"
+        android:layout_width="76dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="369dp"
+        android:textSize="13dp"
+        android:text="Category"
+        android:layout_width="72dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="240dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:text="Participants"
+        android:layout_width="72dp"
+        android:layout_height="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="9sp"
+        android:layout_marginTop="289dp"
+        android:textSize="16sp"
+        android:id="@+id/gradientButton"
+        android:layout_width="390dp"
+        android:layout_height="47dp"
+        android:background="@drawable/grandient_button"
+        android:text="Next"
+        android:textColor="@color/white" />
+
+    <Spinner
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/typeSpinner"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginStart="9dp"
+        android:background="@drawable/rounded_spinner"
+        android:padding="10dp"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:text="Explore the nightlife of your city"
+        android:layout_marginHorizontal="61dp"
+        android:layout_marginTop="126dp"
+        android:textColor="@color/black"
+        android:id="@+id/resultTextView"
+        android:layout_width="220dp"
+        android:layout_height="45.27dp"
+        android:textSize="17dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/likeButton"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/favorite"
+        android:src="@drawable/heart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="@drawable/background_category"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="141dp"
+        android:layout_marginTop="73dp"
+        android:text="Category"
+        android:layout_height="33dp"
+        android:layout_width="88dp"/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:text="Free"
+        android:layout_marginLeft="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_width="48dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:text="Price💰"
+        android:gravity="center"
+        android:layout_marginLeft="63dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="226dp"
+        android:layout_width="42dp"
+        android:layout_height="20dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="190dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="392dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
